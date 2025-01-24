@@ -1,10 +1,127 @@
 body{
-    background-color: black;
+    width: 1600px;
+    height: 1200px;
+    background-color: #1E1E1E;
+    margin: 20px auto;
 }
 
 .fondo{
     width: 1444px;
     height: 901.49px;
-    background-color: #575756;
-    margin: 0 auto;
+    background-image: url(img/Card.png);
+    border: 0px;
+    border-radius: 20px;       
+    background-image: url(img/Vector.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 1;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 88px;
+    height: 39.06px;
+    margin-left: 60px;
+    margin-top: 54px;
+}
+header ul{
+    display: flex;
+    gap: 59px;
+    align-items: center;
+    margin-right: 60px;
+}
+header li{
+   list-style: none;
+    
+}
+header li>a{
+    transition:1s all ease;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+    font-family: "Josefin Sans", serif;
+    font-size: 17px;
+}
+
+header li>a:hover{
+    font-size: 20px;
+}
+
+#contenido{
+    display: flex;
+}
+#contenido > div > div{
+    display: flex;
+}
+#contenido > div > div > h1{
+    width: 507px;
+    height: 254px;
+
+    font-weight: bold;
+    font-size: 110px;
+    color: #ED8A50;
+    font-family: "Oswald", serif;
+
+    margin-top: 57.94px;
+    margin-left: 60px;
+
+}
+#luces{
+    width: 67.03px;
+    height: 73.43px;
+    margin-top: 77.94px;
+    margin-left: -129px;
+}
+
+#contenido p{
+    width: 659px;
+    height: 111px;
+
+    font-family: "Josefin Sans", serif;
+    font-size: 25px;
+    line-height: 37px;
+
+    color: #E1E1E1;
+
+    margin-top: 24px;
+    margin-left: 60px;
+}
+
+#contenido button{
+    transition: 1s all ease;
+    width: 218px;
+    height: 61px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Josefin Sans", serif;
+    color: #0A0304;
+    font-size: 20px; 
+    background-color: #ED8A50;
+
+    border: 0px;
+    border-radius: 34px;
+
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+#contenido button:hover{
+    font-size: 22px;
+    width: 220px;
+    height: 65px;
+}
+
+#flecha{
+    width: 130px;
+    height: 130px;
+    margin-left: 26px;
 }
