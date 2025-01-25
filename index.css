@@ -7,11 +7,12 @@ body{
 
 .fondo{
     width: 1444px;
-    height: 901.49px;
+    height: 1018px;
     background-image: url(img/Card.png);
+    background-size: cover;
     border: 0px;
     border-radius: 20px;       
-    background-image: url(img/Vector.png);
+   /* background-image: url(img/Vector.png); */
     background-repeat: no-repeat;
     background-position: right;
     z-index: 1;
@@ -55,6 +56,9 @@ header li>a:hover{
 
 #contenido{
     display: flex;
+}
+#contenido > div{
+    width:659px;
 }
 #contenido > div > div{
     display: flex;
@@ -124,4 +128,123 @@ header li>a:hover{
     width: 130px;
     height: 130px;
     margin-left: 26px;
+}
+
+#cascos{
+    width: 746px;
+    height: 313px;
+    margin-top: 38px;
+    margin-left: 64px;
+
+    display: flex;
+    gap: 15px;
+}
+
+#amarillo,#blanco{
+    width: 226px;
+    height: 269px;
+    margin-top: 86px;   
+
+    z-index: 1;
+}
+
+#amarillo > div ,#blanco > div{
+    width: 226px;
+    height: 226px;
+
+    background-image: url(img/BG.png);
+    background-size: 226px;
+    background-repeat: no-repeat;
+}
+
+#amarillo > div > img , #blanco > div > img{
+    width: 215.33px;
+    height: 197.48px;
+    margin-top: -43px;
+}
+
+#amarillo > div > p ,#blanco > div > p {
+    width: 184.09px;
+    height: 33.47px;
+
+    color: #FFFFFF;
+    
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Josefin Sans", serif;    
+    text-align: center;
+
+    margin-left: 21.2px;
+    margin-top: 13.39px;
+}
+
+#naranja{
+    width: 262px;
+    height: 313px;
+}
+
+#naranja > div{
+    width: 262px;
+    height: 262px;
+
+    margin-top: 51px;
+    margin-left: 15px;
+    margin-right: 17px;
+
+    background-image: url(img/BG.png);
+    background-size: 262px;
+    background-repeat: no-repeat;
+}
+
+#naranja > div > img{
+    width: 250px;
+    height: 229px;
+
+    margin-top: -51px;
+}
+
+#naranja > div > p{
+    width: 194px;
+    height: 39px;
+
+    margin-left: 33.38px;
+    margin-top: 15px;
+
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+}
+
+#blanco{
+    margin-left: 17px;
+}
+
+#persona{
+    min-width: 822px;
+    height: 858px;
+
+    z-index: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    overflow: hidden;
+    margin-top: 63px;
+    margin-bottom: 0px;
+    margin-left: 27px;
+    
+}
+#persona > img{
+    border-radius: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+    align-content: end;
+
+    color: #FFFFFF;
+    font-family: "Josefin Sans", serif;
 }
